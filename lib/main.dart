@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart'; // Mengimpor paket Flutter untuk membuat aplikasi dengan material design
-import 'menu_makanan.dart'; 
-
+import 'login_page.dart'; // Mengimpor halaman login
 
 void main() {
   runApp(MyApp()); // Fungsi utama yang menjalankan aplikasi MyApp
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget { // Mendefinisikan kelas MyApp yang merupak
       theme: ThemeData( // Tema aplikasi
         primarySwatch: Colors.orange, // Warna utama aplikasi adalah oranye
       ),
-      home: MenuMakanan(), 
+      home: LoginPage(), // Halaman pertama yang ditampilkan adalah LoginPage
     );
   }
 }
